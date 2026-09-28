@@ -24,7 +24,6 @@ ARM CoreSight is a large on-chip debug and trace infrastructure. Its trace sourc
 
 <img width="1530" height="1294" alt="CoreSight debug and trace architecture" src="https://github.com/user-attachments/assets/52da1be4-7a85-40d1-9bbb-bb11bc16dae4" />
 
-_Source: ARM CoreSight documentation_
 
 The full research project is a three-stage pipeline:
 
