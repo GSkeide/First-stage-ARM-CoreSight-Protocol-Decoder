@@ -99,12 +99,9 @@ Many existing hardware decoders process 1 byte per cycle and accept occasional b
 ## Future work
 
 - **Stage 2:** an instruction trace decoder that consumes the deformatter's 64-bit output stream
-- **Faster fabric:** routing dominates the critical path on the Zynq-7000 (5.06 ns of 7.38 ns). Later stages will add more logic, so we recommend moving to a Zynq UltraScale+.
+- **Faster fabric:** routing dominates the critical path on the Zynq-7000 (5.06 ns of 7.38 ns). Later stages will add more logic, so we recommend moving to a Zynq UltraScale+, which has severely improved routing architecture, potentially improving the timing by 4 times.
 - **Buffered alternative:** in normal operation there are hundreds of idle words between trace words, so buffering could work. However, an attacker could deliberately generate bursts of trace to overflow the buffer, which makes it risky for security use.
 
-## Repository structure
-
-_[list folders: VHDL sources, testbenches, Vitis app, C# comparison script, TCL scripts]_
 
 ## Authors and acknowledgements
 
