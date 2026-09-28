@@ -17,7 +17,6 @@ Bachelor thesis in Electronics, Western Norway University of Applied Sciences (H
 
 **Tech:** VHDL, Vivado, Vitis (bare-metal C), AXI4-Stream / AXI DMA, ILA, CSAL, OpenCSD, TCL, C#, Yocto
 
-**My role:** _[e.g. designed the frame deformatter FSM and the AXI master, wrote the verification flow…]_
 
 ## Background
 
